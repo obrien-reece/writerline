@@ -37,6 +37,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
+          <li><a href="https://wa.me/+254713047055" style="background-color: green;color: white;"><i class="bi bi-whatsapp"></i><span>Whatsap</span></a></li>
           <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
           <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
           <li><a href="#portfolio"><i class="bi bi-calculator-fill"></i></i><span>Stats</span></a></li>
@@ -530,6 +531,13 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+    <script>
+    var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp Us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"254713047055","welcomeMessage":"Welcome to Writerline Solutions. How may we help you.","zIndex":999999,"btnColorScheme":"light"};
+    window.onload = () => {
+      _waEmbed(wa_btnSetting);
+    };
+    </script>
 
   </body>
 
